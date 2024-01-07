@@ -4,6 +4,11 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "[VENV] Activate (bash)",
+            "type": "shell",
+            "command": "source ./.venv/Scripts/activate"
+        },
+        {
             "label": "[IMAGE] Build",
             "type": "shell",
             "command": "sh ${PWD}/scripts/image-service-build.sh",
