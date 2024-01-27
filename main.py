@@ -5,3 +5,6 @@ from scripts import *
 if __name__ == "__main__":
     # Chiama la funzione 'app()' definita nel modulo 'scripts'
     app()
+
+
+__version__ = "0.2.0"
